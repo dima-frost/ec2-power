@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  ec2-power:
+    build:
+      context: ..
+    image: ec2-power:0.1
+    container_name: ec2-power
+    restart: always
