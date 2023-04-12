@@ -4,7 +4,7 @@ import time
 
 ec2_client = boto3.client('ec2', region_name='eu-north-1')
 
-instance_ids = ["i-08440fe98a5628e2e", "i-07ab773a63ce6c498"]
+instance_ids = []
 
 
 def ec2_stop():
